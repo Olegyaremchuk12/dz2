@@ -6,7 +6,10 @@ a {
 }
 
 body {
-    background-color: rgb(14, 14, 15);
+background-color: rgb(14, 14, 15);
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden;  
 }
 
 .container {
