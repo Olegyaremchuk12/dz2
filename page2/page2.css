@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(14, 14, 15);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.placeholder {
+    color: #fff;
+    display: flex;
+    gap: 78px;
+    margin-top: 100px;
+   
+}
+
+.placeholder-left-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder-left-text > h1 {
+    font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 121%;
+        color: #fff;
+        opacity: 0.87;
+}
+
+.placeholder-left-text > p {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #fff;
+        opacity: 0.6;
+}
+
+input {
+    background: none;
+    border: 1px solid grey;
+    opacity: 0.5;
+    border-radius : 3px;
+    padding: 14px 20px;
+    color: #fff;
+    
+}
+
+.input {
+    display: flex;
+    gap: 20px;
+}
+
+
+.last-input {
+    width: 88%;
+    padding: 50px 20px ;
+}
+
+.input2 {
+    margin-top: 24px  ;
+}
+
+button {
+    background: #27252D;
+    margin-top: 32px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+
+
+/*  */
+
+.placeholder-right { 
+    display: flex;
+    gap: 64px;
+}
+
+.img-first { 
+    margin-top: 83px;
+}
+
